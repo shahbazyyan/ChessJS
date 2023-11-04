@@ -1,0 +1,34 @@
+#gameboard {
+    width: 320px;
+    height: 320px;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.squere {
+    height: 40px;
+    width: 40px;
+}
+
+.squere svg {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+.beige {
+    background-color: grey;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.black {
+    fill: black
+}
+
+.white {
+    fill: white;
+}
